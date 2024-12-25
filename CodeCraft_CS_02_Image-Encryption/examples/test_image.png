@@ -1,0 +1,5 @@
+from PIL import Image
+
+# Create a red image for testing
+img = Image.new('RGB', (100, 100), color='red')
+img.save("examples/test_image.png")
