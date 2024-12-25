@@ -1,18 +1,17 @@
-#Codecraft _cs _1_Keylogger
-#Overview
 
-The CodeAlpha Keylogger is an educational tool designed to demonstrate keystroke monitoring in controlled environments. It is intended solely for learning purposes, adhering to strict ethical guidelines. This project showcases Python programming skills, event handling, and responsible software development.
 
-Features
+# Codecraft  Keylogger
 
-Real-time Key Logging: Captures keystrokes with timestamps.
+## Overview
+The Codecraft Keylogger is an educational project demonstrating input monitoring in controlled environments. It is designed for learning purposes, focusing on ethical practices and responsible software development.
 
-Modular Design: Clean separation of functionality for maintainability.
+## Features
+- **Real-time Keystroke Logging**: Captures and timestamps keystrokes.
+- **Modular Design**: Easy-to-maintain and extend code structure.
+- **Log Management**: Creates organized, timestamped log files for each session.
 
-Log Management: Automatically creates timestamped log files.
-
-Directory Structure
-
+## Directory Structure
+```
 Codecraft_Keylogger/
 ├── src/
 │   ├── keylogger.py
@@ -21,67 +20,60 @@ Codecraft_Keylogger/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+```
 
-Key Components:
+### Key Components:
+- **`src/keylogger.py`**: Implements the main keylogging functionality.
+- **`src/utils.py`**: Provides utility functions for logging and file management.
+- **`logs/`**: Stores output logs from keylogging sessions.
+- **`requirements.txt`**: Lists the required Python dependencies.
+- **`LICENSE`**: Includes licensing information.
 
-src/keylogger.py: Main keylogging implementation.
+## Installation
 
-src/utils.py: Utility functions for log management.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CodeAlpha_Keylogger.git
+   cd CodeAlpha_Keylogger
+   ```
 
-logs/: Directory for storing log files.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-requirements.txt: Python dependencies.
+## Usage
+1. Navigate to the `src/` directory:
+   ```bash
+   cd src
+   ```
 
-LICENSE: Licensing information.
+2. Run the keylogger:
+   ```bash
+   python keylogger.py
+   ```
 
-Installation
+3. Logs will be saved in the `logs/` directory with timestamped filenames.
 
-Clone the repository:
+## Ethical Guidelines
+- This tool is for educational purposes **only**.
+- Use in controlled environments where you have explicit permission.
+- Adhere to all relevant privacy and data protection laws.
+- Never use this software for malicious or unauthorized activities.
 
-git clone https://github.com/your-username/CodeAlpha_Keylogger.git
-cd CodeAlpha_Keylogger
+## Disclaimer
+Misuse of this software is strictly prohibited and may result in legal consequences. The authors are not responsible for any unauthorized use or harm caused by this tool.
 
-Install dependencies:
+## Contribution
+Contributions are welcome! To suggest features, report issues, or contribute code:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Submit a pull request.
 
-pip install -r requirements.txt
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-Usage
+---
 
-Navigate to the src/ directory:
-
-cd src
-
-Run the keylogger:
-
-python keylogger.py
-
-Logs will be saved in the logs/ directory with timestamped filenames.
-
-Ethical Guidelines
-
-This tool is strictly for educational purposes.
-
-Use only in controlled environments.
-
-Obtain proper permissions before use.
-
-Never use for malicious purposes.
-
-Adhere to local privacy and data protection laws.
-
-Disclaimer
-
-Unauthorized use of this software is prohibited and may violate local laws. The authors assume no liability for misuse of this tool.
-
-Contribution
-
-Contributions are welcome! If you'd like to suggest features or report issues, please open a GitHub issue or submit a pull request.
-
-License
-
-This project is licensed under the MIT License.
-
-Connect
-
-If you found this project useful or have questions, feel free to connect with me on LinkedIn or check out my other projects on GitHub.
-
+### Connect
+If you enjoyed this project or have questions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/) or explore my other work on [GitHub](https://github.com/your-username).
