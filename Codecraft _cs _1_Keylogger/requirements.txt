@@ -1,0 +1,7 @@
+# Requirements for CodeAlpha Keylogger
+
+# Core dependency for keyboard event listening
+pynput==1.7.6
+
+# Optional: Ensure compatibility with datetime utilities (standard library already provides this)
+# No additional external dependencies are required for logging.
