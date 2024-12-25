@@ -1,0 +1,7 @@
+# Image Encryption System Dependencies
+
+# Pillow: For image processing and manipulation
+Pillow==9.5.0
+
+# pytest: For unit testing
+pytest==7.4.0
